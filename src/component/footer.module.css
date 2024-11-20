@@ -1,0 +1,38 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  background-color: gold;
+  padding: 10px;
+}
+.item {
+  display: block;
+  margin: 50;
+}
+.itemtwo {
+  display: none;
+  margin: 0;
+}
+.itemone {
+  display: none;
+  margin: 0;
+}
+@media screen and (max-width: 390px) {
+  .footer {
+    width: 100%;
+  }
+  .itemone {
+    margin: 0;
+    display: block;
+  }
+  .itemtwo {
+    margin: 0;
+    display: block;
+  }
+  .item {
+    display: none;
+  }
+}

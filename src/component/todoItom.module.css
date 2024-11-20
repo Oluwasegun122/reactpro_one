@@ -1,0 +1,36 @@
+.item {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #393635;
+}
+.itemName {
+  font-weight: bold;
+  padding: 20px;
+  text-transform: capitalize;
+}
+.line {
+  border: 1px solid #f4f4f4;
+}
+.delete {
+  float: right;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  background-color: gold;
+  color: white;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+@media screen and (max-width: 768px) {
+  .delete {
+    float: right;
+  }
+  .item {
+    width: 300px;
+  }
+}
